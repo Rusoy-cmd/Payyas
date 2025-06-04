@@ -1,0 +1,21 @@
+name: Deploy
+   on:
+     push:
+       branches:
+         - master  # Укажите вашу ветку
+   jobs:
+     build:
+       runs-on: ubuntu-latest
+       steps:
+       - name: Checkout code
+         uses: actions/checkout@v2
+       - name: Set up Node.js
+         uses: actions/setup-node@v2
+         with:
+           node-version: '14'  # Укажите нужную версию Node.js
+       - name: Install dependencies
+         run: npm install
+       - name: Build
+         run: npm run build  # Убедитесь, что этот скрипт существует в вашем package.json
+       - name: Deploy
+         run: npm run deploy  # Укажите команду для деплоя

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/payas/static/css/main.5974f6b7.css",
+    "main.js": "/payas/static/js/main.9aeb71d6.js",
+    "index.html": "/payas/index.html",
+    "main.5974f6b7.css.map": "/payas/static/css/main.5974f6b7.css.map",
+    "main.9aeb71d6.js.map": "/payas/static/js/main.9aeb71d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5974f6b7.css",
+    "static/js/main.9aeb71d6.js"
+  ]
+}

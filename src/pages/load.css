@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a5acd, #5f5cff); /* Сине-фиолетовый градиент */
+}
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loading-heart {
+    font-size: 120px; /* Размер иконки */
+    color: #ffffff; /* Цвет сердечка (белый для контраста) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Тень текста */
+    animation: pulse 1.7s infinite; /* Добавление анимации пульсации */
+}
+.loading-text {
+    margin-top: 0px;
+    font-size: 2rem; /* Увеличенный размер текста */
+    color: #ffffff; /* Цвет текста (белый для контраста) */
+    font-family: 'Dancing Script', cursive; /* Применение нового шрифта */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Тень текста */
+}
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); /* Увеличение размера сердечка при пульсации */
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Начальная прозрачность */
+    }
+    100% {
+        opacity: 1; /* Конечная прозрачность */
+    }
+}

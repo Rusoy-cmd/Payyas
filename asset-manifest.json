@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Payyas/static/css/main.946d5e19.css",
+    "main.css": "/Payyas/static/css/main.2ce93d1a.css",
     "main.js": "/Payyas/static/js/main.f37b6865.js",
     "index.html": "/Payyas/index.html",
-    "main.946d5e19.css.map": "/Payyas/static/css/main.946d5e19.css.map",
+    "main.2ce93d1a.css.map": "/Payyas/static/css/main.2ce93d1a.css.map",
     "main.f37b6865.js.map": "/Payyas/static/js/main.f37b6865.js.map"
   },
   "entrypoints": [
-    "static/css/main.946d5e19.css",
+    "static/css/main.2ce93d1a.css",
     "static/js/main.f37b6865.js"
   ]
 }
